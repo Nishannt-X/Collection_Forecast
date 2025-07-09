@@ -1,0 +1,13 @@
+
+{
+  "name": "payment-prediction-app-local",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite-local.config.ts",
+    "build": "tsc && vite build --config vite-local.config.ts",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview --config vite-local.config.ts"
+  }
+}
